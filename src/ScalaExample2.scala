@@ -1,7 +1,4 @@
 object ScalaExample2 {
-  def start: Unit = {
-    println(fibonacci(5))
-  }
 
   def fibonacci(target: Int): Int = {
     @annotation.tailrec

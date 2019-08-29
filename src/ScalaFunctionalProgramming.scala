@@ -21,6 +21,7 @@ object ScalaFunctionalProgramming {
   }
 
   def start(): Unit = {
-    ScalaExample2.start
+    ScalaExample2
+    ScalaExample3
   }
 }
