@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0eb4b3b-05df-41c4-a832-71e3bc2ba1af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/List.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScalaExample3.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/META-INF/ScalaSample.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_3$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample2_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaFunctionalProgramming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaFunctionalProgramming$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScalaExample2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScalaExample2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScalaFunctionalProgramming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScalaFunctionalProgramming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Cons$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Cons$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Cons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Cons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$List$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$List$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Nil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Nil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScalaExample3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScalaExample3.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
