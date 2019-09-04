@@ -4,10 +4,6 @@
     <list default="true" id="c0eb4b3b-05df-41c4-a832-71e3bc2ba1af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Cons$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Cons$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Cons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Cons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$List$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$List$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Nil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$Nil$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ScalaExample3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScalaExample3.scala" afterDir="false" />
     </list>

@@ -208,6 +208,88 @@ object ScalaExample3 {
     loop(a, b, Nil: List[C])
   }
 
-  //print(zipWith(List(1, 2, 3), List("A", "B", "C"))((x, y) => s"$x $y"))
+  //print(zipWith(List(1, 2, 3), List("A", "B", "C", "D"))((x, y) => s"$x $y"))
 
+  // Example 3.24
+  def find[A](l: List[A], x: A): Int = {
+    def loop(l: List[A], x: A, acc: Int): Int = l match {
+      case Nil => -1
+      case Cons(h, t) => if (h == x) acc else loop(t, x, acc + 1)
+    }
+    loop(l, x, 0)
+  }
+
+  def hasSubsequence[A](sup: List[A], sub: List[A]): Boolean = sub match {
+    case Nil => true
+    case Cons(h, _) =>
+        filter(zipWith(drop(sup, find(sup, h)), sub)(_ == _))(_ == false) == Nil
+  }
+
+  // Sample 3.3
+  sealed trait Tree[+A]
+  case class Leaf[A](value: A) extends Tree[A]
+  case class Branch[A](left: Tree[A], right: Tree[A]) extends Tree[A]
+
+  // Example 3.25
+  def count[A](tree: Tree[A]): Int = tree match {
+    case Leaf(_) => 1
+    case Branch(left, right) => count(left) + count(right) + 1
+  }
+
+  val tree = Branch(Branch(Leaf(1), Branch(Leaf(2), Leaf(5))), Branch(Leaf(3), Leaf(4)))
+  //println(count(tree))
+
+  // Example 3.26
+  def maximum(tree: Tree[Int]): Int = tree match {
+    case Leaf(x) => x
+    case Branch(left, right) => maximum(left) max maximum(right)
+  }
+  //println(maximum(tree))
+
+  // Example 3.27
+  def depth[A](tree: Tree[A]): Int = tree match {
+    case Leaf(_) => 0
+    case Branch(left, right) => (depth(left) max depth(right)) + 1
+  }
+  //println(depth(tree))
+
+  // Example 3.28
+  def map[A, B](tree: Tree[A])(f: A => B): Tree[B] = tree match {
+    case Leaf(a) => Leaf(f(a))
+    case Branch(left, right) => Branch(map(left)(f), map(right)(f))
+  }
+  //println(map(tree)(_.toString.repeat(2)))
+
+  // Example 3.29
+  def foldLeft[A, B](tree: Tree[A], b: B)(f: (B, A) => B): B = tree match {
+    case Leaf(a) => f(b, a)
+    case Branch(left, right) => foldLeft(right,foldLeft(left, b)(f))(f)
+  }
+
+  def foldRight[A, B](tree: Tree[A], b: B)(f: (A, B) => B): B = tree match {
+    case Leaf(a) => f(a, b)
+    case Branch(left, right) => foldRight(left,foldRight(right, b)(f))(f)
+  }
+
+  def fold[A, B](tree: Tree[A])(f: A => B)(g: (B, B) => B): B = tree match {
+    case Leaf(a) => f(a)
+    case Branch(left, right) => g(fold(left)(f)(g), fold(right)(f)(g))
+  }
+
+  def sizeWithFold[A](tree: Tree[A]): Int =
+    fold(tree)(a => 1)(_ + _ + 1)
+
+  def maximumWithFold(tree: Tree[Int]): Int =
+    fold(tree)(a => a)(_ max _)
+
+  def depthWithFold[A](tree: Tree[A]): Int =
+    fold(tree)(a => 0)((x, y) => (x max y) + 1)
+
+  def mapWithFold[A, B](tree: Tree[A])(f: A => B): Tree[B] = {
+    def map[A, B](tree: Tree[A])(f: A => Tree[B]): Tree[B] =
+      fold(tree)(a => f(a))((x, y) => Branch(x, y))
+    map(tree)(a => Leaf(f(a)))
+  }
+
+  //println(mapWithFold(tree)(x => x * 2))
 }
