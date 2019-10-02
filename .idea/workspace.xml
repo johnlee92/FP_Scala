@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0eb4b3b-05df-41c4-a832-71e3bc2ba1af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ScalaExample4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScalaExample5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScalaExample6.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ScalaSample/ScalaExample3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaFunctionalProgramming$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScalaSample/ScalaFunctionalProgramming.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ScalaExample3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScalaExample3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScalaFunctionalProgramming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScalaFunctionalProgramming.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

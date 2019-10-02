@@ -49,7 +49,7 @@ object ScalaExample3 {
 
   // Example 3.4
   def drop[A](l: List[A], n: Int): List[A] = {
-    if (n == 0) l
+    if (n <= 0) l
     else l match {
       case Nil => Nil
       case Cons(_, t) => drop(t, n - 1)

@@ -23,5 +23,8 @@ object ScalaFunctionalProgramming {
   def start(): Unit = {
     ScalaExample2
     ScalaExample3
+    ScalaExample4
+    ScalaExample5
+    ScalaExample6
   }
 }

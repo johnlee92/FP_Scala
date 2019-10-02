@@ -1,0 +1,3 @@
+case object ScalaExample5 {
+
+}
